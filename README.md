@@ -1,4 +1,4 @@
-# Workshop Registration Service — Full Stack Assessment
+<img width="1901" height="911" alt="Staff-dashboard" src="https://github.com/user-attachments/assets/aa5becd2-73ad-4ad4-9906-da53a1c0bb9f" /># Workshop Registration Service — Full Stack Assessment
 
 This repository contains the completed full-stack assessment for the **Workshop Registration Service**, built for a community training centre to manage short workshop schedules, registrations, seat capacity limits, and staff access permissions.
 
@@ -22,17 +22,17 @@ Key features implemented:
 - **Framework**: Laravel 12 (PHP 8.2+) with Laravel React Starter Kit
 - **Frontend**: React 19, TypeScript, Inertia.js 2.0
 - **Styling**: Tailwind CSS
-- **Database**: SQLite / MySQL 8.0 (ACID compliant with pessimistic row locking)
+- **Database**: MySQL
 - **Testing**: Pest PHP for feature and concurrency testing
 
 ---
 
 ## 📸 Application Previews
 
-![Header & Workshop Catalogue](https://github.com/user-attachments/assets/6133b1d5-9747-48fb-aaa7-b5e287aee3d4)
-![Tablet View](https://github.com/user-attachments/assets/278f7c3c-94da-4946-a40c-a8b9f12de6f1)
-![Mobile Navigation View](https://github.com/user-attachments/assets/c2d7b331-a93e-4b6e-bfad-2a3033ee4efe)
-![Registration API & History](https://github.com/user-attachments/assets/0cd3b05a-3014-47dd-8aa2-3644df98d905)
+<img width="1914" height="901" alt="Login-page" src="https://github.com/user-attachments/assets/d1fb3513-6ad2-4a7b-b6b0-53fb0b148578" />
+<img width="1904" height="909" alt="Admin-dashboard" src="https://github.com/user-attachments/assets/45cd189d-abb7-49ae-abc6-39f9d4f3483a" />
+<img width="1906" height="911" alt="Manager-dashboard" src="https://github.com/user-attachments/assets/55815717-0546-4950-ab71-cde2f7b40cdb" />
+<img width="1901" height="911" alt="Staff-dashboard" src="https://github.com/user-attachments/assets/1b2e259b-2031-4cb7-a35e-f3682b3f907f" />
 
 ---
 
@@ -96,6 +96,7 @@ cp .env.example .env
 php artisan key:generate
 
 # Run Database Migrations and Seeders
+php artisan migrate
 php artisan migrate:fresh --seed
 ```
 
