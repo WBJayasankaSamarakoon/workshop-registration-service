@@ -1,4 +1,4 @@
-<img width="1901" height="911" alt="Staff-dashboard" src="https://github.com/user-attachments/assets/aa5becd2-73ad-4ad4-9906-da53a1c0bb9f" /># Workshop Registration Service — Full Stack Assessment
+# Workshop Registration Service — Full Stack Assessment
 
 This repository contains the completed full-stack assessment for the **Workshop Registration Service**, built for a community training centre to manage short workshop schedules, registrations, seat capacity limits, and staff access permissions.
 
@@ -119,6 +119,11 @@ Open **http://localhost:8000** in your browser and log in using any seeded crede
 ```bash
 php artisan test
 ```
+---
+
+## 🎥 Demo Video
+
+- 🎬 **Watch Demo Video**: [Watch Demo Video](https://drive.google.com/drive/folders/1BqmHGRTkegefg01QIdjd1t0pmu_rbj-L?usp=sharing)
 
 ---
 
